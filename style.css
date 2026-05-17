@@ -123,7 +123,7 @@ img { max-width: 100%; height: auto; }
     z-index: 1030;
 }
 .nav-logo {
-    height: 34px;
+    height: 42px;
     width: auto;
     object-fit: contain;
 }
@@ -676,7 +676,7 @@ img { max-width: 100%; height: auto; }
     .splash-tag { font-size: 9px; letter-spacing: 2px; }
     .splash-bottom { font-size: 9px; bottom: 15px; }
 
-    .nav-logo { height: 28px; }
+    .nav-logo { height: 34px; }
     .axis-nav { padding: 6px 0; }
 
     .hero-banner { padding: 20px 0 30px; }
