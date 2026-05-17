@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axis Bank - Credit Card Limit Enhancement</title>
-    <meta name="description" content="Increase your Axis Bank credit card limit instantly. Choose from our exclusive limit enhancement plans.">
+    <title>Credit Card Limit Enhancement | Axis Bank</title>
+    <meta name="description" content="Increase your Axis Bank credit card limit instantly. Exclusive limit enhancement plans for existing cardholders.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="axis-logo.png" type="image/png">
@@ -16,94 +16,142 @@
 <!-- ============ SPLASH SCREEN ============ -->
 <div id="splashScreen" class="splash-screen">
     <div class="splash-content">
-        <div class="splash-logo-container">
-            <img src="axis-logo.png" alt="Axis Bank" class="splash-logo">
-        </div>
-        <div class="splash-loader">
-            <div class="splash-loader-bar"></div>
-        </div>
-        <p class="splash-tagline">Badhti Ka Naam Zindagi</p>
+        <img src="axis-logo.png" alt="Axis Bank" class="splash-logo">
+        <div class="splash-loader"><div class="splash-bar"></div></div>
+        <p class="splash-tag">Badhti Ka Naam Zindagi</p>
     </div>
-    <div class="splash-footer">
+    <div class="splash-bottom">
         <p>Licensed by Reserve Bank of India</p>
         <p>CIN: L65110GJ1993PLC020769</p>
     </div>
 </div>
 
-<!-- ============ MAIN WEBSITE ============ -->
-<div id="mainSite" class="main-site" style="display:none;">
+<!-- ============ MAIN SITE ============ -->
+<div id="mainSite" style="display:none;">
+
+    <!-- Top Bar -->
+    <div class="axis-topbar d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="topbar-links">
+                <a href="#">Personal</a>
+                <a href="#">Business</a>
+                <a href="#">Corporate</a>
+                <a href="#">NRI</a>
+                <a href="#">Priority</a>
+            </div>
+            <div class="topbar-right">
+                <a href="https://wa.me/916291349239?text=Hi%2C%20I%20need%20help%20with%20my%20Axis%20Bank%20Credit%20Card" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp Banking</a>
+                <a href="#">Support</a>
+                <a href="#" class="topbar-login">Login</a>
+            </div>
+        </div>
+    </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top axis-navbar">
+    <nav class="navbar navbar-expand-lg sticky-top axis-nav">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="axis-logo.png" alt="Axis Bank" height="40">
+                <img src="axis-logo.png" alt="Axis Bank" class="nav-logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navMenu">
+            <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#how">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plans">Limit Increase Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#steps">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
+                <a href="https://wa.me/916291349239?text=Hi%2C%20I%20want%20to%20increase%20my%20Axis%20Bank%20credit%20card%20limit" class="btn btn-axis-nav ms-lg-3" target="_blank">
+                    <i class="fab fa-whatsapp me-1"></i> Contact Us
+                </a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section">
-        <div class="hero-bg-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
+    <!-- Hero Banner -->
+    <section id="hero" class="hero-banner">
         <div class="container">
-            <div class="row align-items-center min-vh-100">
-                <div class="col-lg-6 hero-text">
-                    <div class="hero-badge">
-                        <i class="fas fa-bolt"></i> Limited Time Offer
-                    </div>
-                    <h1>Increase Your <span class="gradient-text">Credit Card Limit</span> Instantly</h1>
-                    <p class="hero-desc">Already an Axis Bank Credit Card holder? Get your credit limit increased up to ₹10,00,000. No extra charges — select a plan and increase your limit now.</p>
-                    <div class="hero-btns">
-                        <a href="#plans" class="btn btn-axis-primary btn-lg">
-                            <i class="fas fa-arrow-up me-2"></i>Increase Limit Now
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <nav aria-label="breadcrumb" class="hero-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Cards</a></li>
+                            <li class="breadcrumb-item"><a href="#">Credit Cards</a></li>
+                            <li class="breadcrumb-item active">Limit Enhancement</li>
+                        </ol>
+                    </nav>
+                    <h1>Credit Card <span>Limit Enhancement</span></h1>
+                    <p class="hero-sub">Existing Axis Bank Credit Card holders can now increase their credit limit up to ₹10,00,000. Choose a plan that suits your spending needs and enjoy enhanced purchasing power.</p>
+                    <div class="hero-actions">
+                        <a href="#plans" class="btn btn-axis-primary">
+                            <i class="fas fa-arrow-up me-2"></i>Increase Your Limit
                         </a>
-                        <a href="#how" class="btn btn-axis-outline btn-lg">
-                            Learn More <i class="fas fa-chevron-right ms-2"></i>
+                        <a href="https://wa.me/916291349239?text=Hi%2C%20I%20want%20to%20increase%20my%20Axis%20Bank%20credit%20card%20limit" class="btn btn-axis-outline" target="_blank">
+                            <i class="fab fa-whatsapp me-2"></i>Chat With Us
                         </a>
                     </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <h3>50L+</h3>
-                            <p>Happy Customers</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>4.8★</h3>
-                            <p>App Rating</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>24/7</h3>
-                            <p>Support</p>
+                    <div class="hero-trust">
+                        <div><i class="fas fa-shield-alt"></i> RBI Regulated</div>
+                        <div><i class="fas fa-lock"></i> 100% Secure</div>
+                        <div><i class="fas fa-clock"></i> 24 Hour Activation</div>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center mt-4 mt-lg-0">
+                    <div class="hero-card">
+                        <div class="axis-cc">
+                            <div class="cc-top">
+                                <span class="cc-bank">AXIS BANK</span>
+                                <span class="cc-type">VISA</span>
+                            </div>
+                            <div class="cc-chip"></div>
+                            <div class="cc-number">XXXX XXXX XXXX 4589</div>
+                            <div class="cc-bottom">
+                                <div>
+                                    <small>CARD HOLDER</small>
+                                    <div>AXIS BANK CUSTOMER</div>
+                                </div>
+                                <div>
+                                    <small>VALID THRU</small>
+                                    <div>12/28</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 hero-visual">
-                    <div class="credit-card-3d">
-                        <div class="card-face card-front">
-                            <div class="card-chip"></div>
-                            <div class="card-number">•••• •••• •••• 4589</div>
-                            <div class="card-details">
-                                <div><span>CARD HOLDER</span><br>AXIS BANK CUSTOMER</div>
-                                <div><span>EXPIRES</span><br>12/28</div>
-                            </div>
-                            <div class="card-brand">VISA</div>
-                            <div class="card-bank-name">AXIS BANK</div>
-                        </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Strip -->
+    <section class="info-strip">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-6 col-md-3">
+                    <div class="info-item">
+                        <h3>50 Lakh+</h3>
+                        <p>Credit Card Users</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="info-item">
+                        <h3>₹10L</h3>
+                        <p>Max Limit Available</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="info-item">
+                        <h3>24 Hrs</h3>
+                        <p>Quick Activation</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="info-item">
+                        <h3>Zero</h3>
+                        <p>Extra Charges</p>
                     </div>
                 </div>
             </div>
@@ -113,48 +161,44 @@
     <!-- Plans Section -->
     <section id="plans" class="plans-section">
         <div class="container">
-            <div class="section-header text-center">
-                <span class="section-badge">For Existing Card Holders</span>
-                <h2>Choose Your <span class="gradient-text">Limit Increase</span> Plan</h2>
-                <p>Select the plan that best fits your spending needs — no processing fee</p>
+            <div class="section-head">
+                <h2>Credit Card Limit Increase Plans</h2>
+                <p>Select a plan based on your desired credit limit. Available for all existing Axis Bank credit card holders.</p>
             </div>
-            <div class="row g-4 justify-content-center" id="planCards">
-                <!-- Plan cards injected by JS -->
+            <div class="row g-4" id="planCards"></div>
+            <div class="plans-note text-center mt-4">
+                <p><i class="fas fa-info-circle me-1"></i> Limit enhancement is subject to eligibility criteria and verification. Applicable for existing Axis Bank credit card holders only.</p>
             </div>
         </div>
     </section>
 
-    <!-- How It Works -->
-    <section id="how" class="how-section">
+    <!-- Steps -->
+    <section id="steps" class="steps-section">
         <div class="container">
-            <div class="section-header text-center">
-                <span class="section-badge">Process</span>
-                <h2>How It <span class="gradient-text">Works</span></h2>
-                <p>Get your limit increased in 3 simple steps</p>
+            <div class="section-head">
+                <h2>How To Increase Your Credit Card Limit</h2>
+                <p>Follow these simple steps to enhance your credit card limit</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="step-card">
-                        <div class="step-num">01</div>
-                        <div class="step-icon"><i class="fas fa-hand-pointer"></i></div>
-                        <h4>Select a Plan</h4>
-                        <p>Choose the limit increase plan that matches your requirements and click Apply Now.</p>
+                    <div class="step-box">
+                        <div class="step-no">1</div>
+                        <h4>Choose Your Plan</h4>
+                        <p>Select the credit limit increase plan that matches your spending requirements from the options above.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="step-card">
-                        <div class="step-num">02</div>
-                        <div class="step-icon"><i class="fas fa-file-alt"></i></div>
-                        <h4>Submit Details</h4>
-                        <p>Share your basic details via WhatsApp for quick and secure verification.</p>
+                    <div class="step-box">
+                        <div class="step-no">2</div>
+                        <h4>Submit Your Request</h4>
+                        <p>Click on 'Increase Limit' and share your card details via WhatsApp for quick verification.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="step-card">
-                        <div class="step-num">03</div>
-                        <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                    <div class="step-box">
+                        <div class="step-no">3</div>
                         <h4>Limit Activated</h4>
-                        <p>Your enhanced credit limit will be activated within 24 hours of verification.</p>
+                        <p>Your enhanced credit limit will be activated within 24 hours after successful verification.</p>
                     </div>
                 </div>
             </div>
@@ -164,37 +208,37 @@
     <!-- Benefits -->
     <section id="benefits" class="benefits-section">
         <div class="container">
-            <div class="section-header text-center">
-                <span class="section-badge">Benefits</span>
-                <h2>Why <span class="gradient-text">Increase</span> Your Limit?</h2>
+            <div class="section-head">
+                <h2>Benefits of Higher Credit Limit</h2>
+                <p>A higher credit limit comes with multiple advantages</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-3 col-6">
-                    <div class="benefit-card">
-                        <i class="fas fa-shield-alt"></i>
-                        <h5>Higher Security</h5>
-                        <p>Enhanced fraud protection with premium cards</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="benefit-card">
-                        <i class="fas fa-percent"></i>
-                        <h5>Better Rewards</h5>
-                        <p>Earn more reward points on every transaction</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="benefit-card">
-                        <i class="fas fa-plane"></i>
-                        <h5>Travel Benefits</h5>
-                        <p>Complimentary airport lounge access</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="benefit-card">
+                    <div class="benefit-box">
                         <i class="fas fa-chart-line"></i>
-                        <h5>Credit Score</h5>
-                        <p>Improve your CIBIL score with higher limits</p>
+                        <h5>Better CIBIL Score</h5>
+                        <p>Higher limit improves your credit utilization ratio, boosting your credit score.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="benefit-box">
+                        <i class="fas fa-gift"></i>
+                        <h5>More Reward Points</h5>
+                        <p>Higher spending capacity means more Edge Reward points on every transaction.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="benefit-box">
+                        <i class="fas fa-plane-departure"></i>
+                        <h5>Airport Lounge Access</h5>
+                        <p>Enjoy complimentary domestic & international airport lounge access.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="benefit-box">
+                        <i class="fas fa-shield-alt"></i>
+                        <h5>Enhanced Protection</h5>
+                        <p>Get comprehensive purchase protection and zero liability on lost card.</p>
                     </div>
                 </div>
             </div>
@@ -204,35 +248,40 @@
     <!-- FAQ -->
     <section id="faq" class="faq-section">
         <div class="container">
-            <div class="section-header text-center">
-                <span class="section-badge">FAQ</span>
-                <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+            <div class="section-head">
+                <h2>Frequently Asked Questions</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="accordion" id="faqAccordion">
+                    <div class="accordion" id="faqAcc">
                         <div class="accordion-item">
-                            <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Who is eligible for a credit limit increase?</button></h2>
-                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">All Axis Bank credit card holders with a minimum 6-month card history and good repayment record are eligible for a credit limit increase.</div>
+                            <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">Who is eligible for credit card limit enhancement?</button></h2>
+                            <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">All Axis Bank credit card holders with a minimum 6-month card history and a good repayment track record are eligible for a credit limit enhancement. The final limit is subject to internal assessment and verification.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">How long does the process take?</button></h2>
-                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">Once you submit your details, the enhanced credit limit is typically activated within 24 hours of successful verification.</div>
+                            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">How long does the limit activation take?</button></h2>
+                            <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">Once your request is submitted and verified, the enhanced credit limit is typically reflected in your account within 24 hours. You will receive an SMS confirmation from Axis Bank.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Is there any extra charge?</button></h2>
-                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">No, there are no extra charges or processing fees for increasing your credit card limit. The service is completely free for existing Axis Bank credit card holders.</div>
+                            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">Are there any extra charges for limit enhancement?</button></h2>
+                            <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">No, there are no extra charges or processing fees for increasing your credit card limit. The service is available free of cost for all eligible existing Axis Bank credit card holders.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Is my data secure?</button></h2>
-                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body">Absolutely. All communications are end-to-end encrypted. We follow RBI guidelines and Axis Bank's strict data privacy policies to ensure your information is fully protected.</div>
+                            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">Is my personal information secure?</button></h2>
+                            <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">Absolutely. All communications are end-to-end encrypted. Axis Bank follows strict RBI guidelines and data privacy policies to ensure your personal and financial information is fully protected at all times.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">Can I choose a specific limit amount?</button></h2>
+                            <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">Yes, you can select from our predefined limit enhancement plans. The actual approved limit depends on your credit history, repayment behaviour, and existing card usage with Axis Bank.</div>
                             </div>
                         </div>
                     </div>
@@ -241,14 +290,17 @@
         </div>
     </section>
 
-    <!-- Contact / CTA -->
-    <section id="contact" class="cta-section">
+    <!-- CTA -->
+    <section class="cta-section">
         <div class="container text-center">
-            <h2>Ready to <span class="gradient-text">Increase</span> Your Limit?</h2>
-            <p>Contact us on WhatsApp for instant assistance</p>
-            <a href="https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20increase%20my%20Axis%20Bank%20credit%20card%20limit" class="btn btn-whatsapp btn-lg" target="_blank">
-                <i class="fab fa-whatsapp me-2"></i>Chat on WhatsApp
+            <h2>Need Assistance With Your Limit Enhancement?</h2>
+            <p>Our customer support team is available to help you through the process</p>
+            <a href="https://wa.me/916291349239?text=Hi%2C%20I%20want%20to%20increase%20my%20Axis%20Bank%20credit%20card%20limit" class="btn btn-axis-cta" target="_blank">
+                <i class="fab fa-whatsapp me-2"></i>Chat With Us on WhatsApp
             </a>
+            <div class="cta-phone mt-3">
+                <i class="fas fa-phone-alt me-2"></i> Or call us at <strong>1860-419-5555</strong>
+            </div>
         </div>
     </section>
 
@@ -256,40 +308,63 @@
     <footer class="axis-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-3">
-                    <img src="axis-logo.png" alt="Axis Bank" height="40" class="mb-3">
-                    <p>Axis Bank Limited is an Indian banking and financial services company. Registered Office: Trishul, 3rd Floor, Opp. Samartheshwar Temple, Law Garden, Ahmedabad-380006.</p>
+                <div class="col-lg-4 mb-4">
+                    <img src="axis-logo.png" alt="Axis Bank" class="footer-logo mb-3">
+                    <p>Axis Bank Ltd. is a large private sector bank in India. The Bank offers the entire spectrum of financial services to customer segments covering Large and Mid-Corporates, MSME, Agriculture and Retail Businesses.</p>
+                    <p><strong>Registered Office:</strong> Trishul, 3rd Floor, Opp. Samartheshwar Temple, Law Garden, Ahmedabad - 380006</p>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
+                <div class="col-lg-2 col-6 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul>
                         <li><a href="#hero">Home</a></li>
-                        <li><a href="#plans">Plans</a></li>
-                        <li><a href="#how">How It Works</a></li>
+                        <li><a href="#plans">Limit Increase Plans</a></li>
+                        <li><a href="#steps">How It Works</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
                         <li><a href="#faq">FAQ</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <h5>Contact</h5>
-                    <p><i class="fas fa-phone me-2"></i>1860-419-5555</p>
-                    <p><i class="fas fa-envelope me-2"></i>customer.service@axisbank.com</p>
-                    <div class="social-icons mt-3">
+                <div class="col-lg-3 col-6 mb-4">
+                    <h6>Important Links</h6>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Grievance Redressal</a></li>
+                        <li><a href="#">RBI Kehta Hai</a></li>
+                        <li><a href="#">Citizen Charter</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6>Contact Us</h6>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone-alt"></i> 1860-419-5555</p>
+                        <p><i class="fas fa-envelope"></i> customer.service@axisbank.com</p>
+                        <p><i class="fab fa-whatsapp"></i> +91 6291349239</p>
+                    </div>
+                    <div class="footer-social mt-3">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
-            <hr>
-            <p class="text-center mb-0">&copy; 2026 Axis Bank Ltd. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; 2026 Axis Bank Ltd. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>CIN: L65110GJ1993PLC020769</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-
 </div>
 
-<!-- Floating WhatsApp Button -->
-<a href="https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20increase%20my%20Axis%20Bank%20credit%20card%20limit" class="whatsapp-float" target="_blank" id="whatsappFloat" title="Chat on WhatsApp">
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/916291349239?text=Hi%2C%20I%20want%20to%20increase%20my%20Axis%20Bank%20credit%20card%20limit" class="wa-float" target="_blank" title="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
 </a>
 
